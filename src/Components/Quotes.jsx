@@ -40,7 +40,7 @@ function Quotes() {
                 <div id="buttons">
                     <div className="social-media"></div>
 
-                    <button onClick={handleClick}>New Quote</button>
+                    <button onClick={handleClick}>More Wisdom</button>
                 </div>
             </div>
         </div>

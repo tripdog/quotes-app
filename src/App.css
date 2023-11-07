@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;1,200;1,300;1,700&family=IBM+Plex+Serif:wght@300;400&display=swap');
 
 
 *{
@@ -9,33 +9,45 @@
 }
 
 body{
-  font-family: 'Baloo Bhai 2', sans-serif;
+  font-family: 'IBM Plex Serif', serif;
+  background-image: url(/public/buddha-bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .quotebox-container{
   display: flex;
-  height:80vw;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
+  height: calc(100vh - 10rem);
 }
 
 #quote-box{
-  background-color: #fff;
-  width: 40rem;
+  background-color: rgba(255, 250, 235, .8);
+  align-self: center;
+  max-width: 40rem;
   padding: 3rem;
   border-radius: 8px;
-  box-shadow: 2px 2px 2px rgba(47, 47, 47, .4);
-  height: 25rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  max-height: 25rem;
+  transition: all 0.5s ease-in-out;
   /*640px */
 }
+
 #text{
-  font-size: 2rem;
+  font-size: clamp(1rem, 0.6216rem + 1.6145vw, 2rem);;
   margin-bottom: 1.5rem;
 }
+
 #author{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
   display: flex;
   justify-content: flex-end;
-  font-size: 1.2rem;
+  font-size: clamp(0.8125rem, 0.6469rem + 0.7064vw, 1.25rem);
+  color: #150a30;
 }
 #buttons{
   display: flex;
@@ -49,10 +61,20 @@ button{
   padding: .9rem 1rem;
   font-size: .9rem;
   font-weight: bold;
-  background-color: rgb(0, 200, 255);
+  background-color: #993365;
   border: none;
-  border-radius: 3px;
+  border-radius: 8px;
   outline: none;
   cursor: pointer;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+}
+
+@media (max-width: 768px) {
+  .quotebox-container{
+    margin-top: 60px;
+    align-items: flex-end;
+  }
+  #quote-box{
+    margin: 40px 30px;
+    align-self: flex-end;
+  }
 }
