@@ -9,16 +9,23 @@
 }
 
 body{
-  background-color: grey;
   font-family: 'Baloo Bhai 2', sans-serif;
 }
+
+.quotebox-container{
+  display: flex;
+  height:80vw;
+  align-items: center;
+  justify-content: center;
+}
+
 #quote-box{
   background-color: #fff;
   width: 40rem;
-  margin: 10rem auto;
   padding: 3rem;
   border-radius: 8px;
-  box-shadow: 2px 2px 2px rgb(47, 47, 47);
+  box-shadow: 2px 2px 2px rgba(47, 47, 47, .4);
+  height: 25rem;
   /*640px */
 }
 #text{
@@ -39,7 +46,7 @@ body{
 
 button{
   color: #fff;
-  padding: .9rem .3rem;
+  padding: .9rem 1rem;
   font-size: .9rem;
   font-weight: bold;
   background-color: rgb(0, 200, 255);
@@ -47,5 +54,5 @@ button{
   border-radius: 3px;
   outline: none;
   cursor: pointer;
-  box-shadow: 2px 2px 2px rgb(45, 45, 45);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
 }
