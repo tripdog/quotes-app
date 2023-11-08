@@ -439,7 +439,7 @@
       {
         "quote": "A smile is the most beautiful colour in the world.",
         "author": "Master Hsing Yun"
-      },
+      }
     ]
 }
 
