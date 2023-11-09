@@ -1,5 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;1,200;1,300;1,700&family=IBM+Plex+Serif:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;1,200;1,300;1,700&family=IBM+Plex+Serif:wght@300;400&family=Kaushan+Script&display=swap');
+
 
 
 *{
@@ -41,13 +43,13 @@ body{
 }
 
 #author{
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 700;
+  font-family: 'Kaushan Script', sans-serif;
+  font-weight: 400;
   font-style: italic;
   display: flex;
   justify-content: flex-end;
-  font-size: clamp(0.8125rem, 0.6469rem + 0.7064vw, 1.25rem);
-  color: #150a30;
+  font-size: clamp(1.125rem, 0.8409rem + 1.2121vw, 1.75rem);
+  color: #1d0c3f;
 }
 #buttons{
   display: flex;
@@ -60,19 +62,22 @@ button{
   color: #fff;
   padding: .9rem 1rem;
   font-size: .9rem;
+  font-family: 'IBM Plex Serif', serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   font-weight: bold;
   background-color: #993365;
   border: none;
   border-radius: 8px;
   outline: none;
   cursor: pointer;
+  transition: all ease-in-out .4s;
 }
 
-button:hover{
+button:hover, button:focus{
   background-color: #1c758c;
   transform: translatey(-5px);
   color: #fee7a6;
-  transition: all ease-in-out .4s;
 }
 
 @media (max-width: 768px) {
