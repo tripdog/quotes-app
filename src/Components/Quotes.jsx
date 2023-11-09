@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import StickyFooter from './StickyFooter';
 
 function Quotes() {
 
@@ -39,10 +40,12 @@ function Quotes() {
                 </div>
                 <div id="buttons">
                     <div className="social-media"></div>
-
                     <button onClick={handleClick}>More Wisdom</button>
                 </div>
             </div>
+            <StickyFooter>
+                <a href="https://atomicpx.com" target="_blank">© 2023 Atomic</a>
+            </StickyFooter>
         </div>
     );
 }

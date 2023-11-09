@@ -1,7 +1,5 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;1,200;1,300;1,700&family=IBM+Plex+Serif:wght@300;400&family=Kaushan+Script&display=swap');
-
 
 
 *{
@@ -15,14 +13,12 @@ body{
   background-image: url(/public/buddha-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
 }
 
 .quotebox-container{
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  height: calc(100vh - 10rem);
+  display: grid;
+  place-items: center;
+  height: 100vh; /* This will fill the entire height of the viewport */
 }
 
 #quote-box{
@@ -80,6 +76,26 @@ button:hover, button:focus{
   color: #fee7a6;
 }
 
+.sticky-footer {
+  margin-top: auto; /* Pushes the footer to the bottom */
+  width: 100%;
+  /* Your desired styling for the footer */
+  background: #000;
+  color: #fee7a6;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.sticky-footer a {
+  color: #fee7a6;
+  transition: all ease .3s;
+  text-decoration: none;
+}
+
+.sticky-footer a:hover{
+  color: #ea2f61;
+}
+
 @media (max-width: 768px) {
   .quotebox-container{
     margin-top: 60px;
@@ -88,5 +104,8 @@ button:hover, button:focus{
   #quote-box{
     margin: 40px 30px;
     align-self: flex-end;
+  }
+  body{
+    background-position-x: 50%;
   }
 }
