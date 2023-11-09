@@ -129,5 +129,10 @@ button:hover{
   }
   button{
     width: 100%;
+    padding: .8rem .9rem;
+    font-size: .8rem;
+  }
+  #text{
+    color:black;
   }
 }
