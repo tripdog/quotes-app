@@ -23,14 +23,14 @@ body{
 
 #quote-box{
   background-color: rgba(255, 250, 235, .8);
-  align-self: center;
+  width: auto; /* Width will be as wide as the content up to the max-width */
+  height: auto; /* Height will be as tall as the content up to the max-height */
   max-width: 40rem;
+  max-height: 25rem;
   padding: 3rem;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  max-height: 25rem;
   transition: all 0.5s ease-in-out;
-  /*640px */
 }
 
 #text{
