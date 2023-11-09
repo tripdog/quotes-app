@@ -1,5 +1,5 @@
-{
-    "quotes": [
+export const data = {
+    "quotes":[
       {
         "quote": "Three things cannot be long hidden: the sun, the moon, and the truth.",
         "author": "Shakyamuni Buddha"
@@ -440,6 +440,5 @@
         "quote": "A smile is the most beautiful colour in the world.",
         "author": "Master Hsing Yun"
       }
-    ]
-}
-
+    ],
+  }
