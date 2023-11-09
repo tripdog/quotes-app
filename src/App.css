@@ -127,4 +127,7 @@ button:hover{
   body{
     background-position-x: 50%;
   }
+  button{
+    width: 100%;
+  }
 }
