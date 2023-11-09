@@ -71,7 +71,7 @@ button{
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: bold;
-  background-image: linear-gradient( 109.6deg,  rgba(209,0,116,1) 11.2%, rgba(110,44,107,1) 91.1% );
+  background-color: rgba(110,44,107,1);
   border: none;
   border-radius: 8px;
   outline: none;
@@ -80,14 +80,14 @@ button{
 }
 
 button:hover, button:focus{
-  background-image: linear-gradient(109.6deg, rgba(110,44,107,1) 11.2%, rgba(209,0,116,1) 91.1%);
+  background-color: rgba(209,0,116,1);
   transform: translatey(-5px);
   color: #fff;
   transition: all ease-in-out .4s;
 }
 
 .sticky-footer {
-  margin-top: auto; /* Pushes the footer to the bottom */
+  margin-top: auto; /* Push the footer to the bottom */
   width: 100%;
   background: #000;
   color: #fee7a6;
@@ -102,7 +102,7 @@ button:hover, button:focus{
 }
 
 .sticky-footer a:hover{
-  color: #ea2f61;
+  color: #fc6a6a;
 
 }
 
