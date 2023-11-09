@@ -42,6 +42,7 @@ body{
   transition: all 0.5s ease-in-out;
 }
 
+
 #text{
   font-size: clamp(1rem, 0.6216rem + 1.6145vw, 2rem);;
   margin-bottom: 1.5rem;
@@ -56,6 +57,12 @@ body{
   font-size: clamp(1.125rem, 0.8409rem + 1.2121vw, 1.75rem);
   color: #1d0c3f;
 }
+
+#author::before {
+  content: "—\00a0";
+}
+
+
 #buttons{
   display: flex;
   align-items: center;
@@ -79,11 +86,10 @@ button{
   transition: all ease-in-out .4s;
 }
 
-button:hover, button:focus{
+button:hover{
   background-color: rgba(209,0,116,1);
   transform: translatey(-5px);
   color: #fff;
-  transition: all ease-in-out .4s;
 }
 
 .sticky-footer {
