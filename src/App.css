@@ -89,7 +89,7 @@ button:hover, button:focus{
 .sticky-footer {
   margin-top: auto; /* Push the footer to the bottom */
   width: 100%;
-  background: #000;
+  background-image: radial-gradient( circle farthest-corner at 1.4% 48.5%,  rgba(53,92,125,1) 13.7%, rgba(0,0,0,1) 51.7%, rgba(53,92,125,1) 83.4% );
   color: #fee7a6;
   text-align: center;
   padding: 1rem 0;
