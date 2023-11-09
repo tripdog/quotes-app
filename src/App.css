@@ -68,6 +68,13 @@ button{
   cursor: pointer;
 }
 
+button:hover{
+  background-color: #1c758c;
+  transform: translatey(-5px);
+  color: #fee7a6;
+  transition: all ease-in-out .4s;
+}
+
 @media (max-width: 768px) {
   .quotebox-container{
     margin-top: 60px;
