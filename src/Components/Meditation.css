@@ -1,0 +1,20 @@
+.medi-box{
+    background-color: rgba(255, 250, 235, .8);
+    width: 26rem;
+    display: flex;
+    align-items: center;
+    height: 8rem;
+    justify-content: space-around;
+    gap: 5px;
+    border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.medi-box > p{
+
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
