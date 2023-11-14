@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: none;
 }
 
 body{
@@ -82,7 +83,7 @@ button{
   border: none;
   border-radius: 8px;
   outline: none;
-  cursor: pointer;
+/*   cursor: pointer; */
   transition: all ease-in-out .4s;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased; /* Chrome, Safari, Opera */
