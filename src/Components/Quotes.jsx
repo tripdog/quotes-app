@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import StickyFooter from './StickyFooter';
+import Meditation from '../Components/Meditation.jsx'
 import { data } from '../Components/data.js' // Import the array from data.js
 
 function Quotes() {
@@ -43,6 +44,7 @@ function Quotes() {
                     <button onClick={handleClick}>More Wisdom</button>
                 </div>
             </div>
+            <Meditation />
             <StickyFooter>
                 <a href="https://atomicpx.com" target="_blank" rel="noreferrer">© 2023 Atomic</a>
             </StickyFooter>
