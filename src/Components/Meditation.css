@@ -18,3 +18,12 @@
     font-weight: 500;
 
 }
+
+@media (max-width: 768px) {
+  .medi-box {
+    height: auto;
+    width: auto;
+    flex-direction: column; 
+    padding: 5px;
+  }
+}
